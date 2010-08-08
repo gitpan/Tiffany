@@ -1,0 +1,33 @@
+Revision history for Perl extension Tiffany
+
+0.01_06
+
+        - doc tweaks
+        - rename Tfall to Tiffany(suggested by miyagawa++)
+        - Tfall::*->new methods should take only one reference value.
+        - added brand new factory method
+
+0.01_05
+
+        - HTML::Template can take $ht->param(\%vars).
+
+0.01_04
+
+        - any ->render method MUST return plain string
+
+0.01_03
+
+        - support Text::MicroTemplate::Extended
+
+0.01_02
+
+        - support T::D(suggested by @c9s)
+        - remove Markdown support
+        - remove Sass support
+
+0.01_01
+
+        - first developer release.
+
+0.01    Wed Mar 24 22:16:13 2010
+        - original version
