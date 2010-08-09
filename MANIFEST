@@ -54,4 +54,5 @@ t/tmpl/foo.tx
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
+xt/04_synopsis.t
 xt/perlcriticrc
