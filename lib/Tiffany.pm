@@ -2,7 +2,7 @@ package Tiffany;
 use strict;
 use warnings;
 use 5.00800;
-our $VERSION = '0.01_08';
+our $VERSION = '0.02';
 
 sub load {
     my ($class, $klass, $args) = @_;
@@ -50,6 +50,8 @@ Tiffany - Generic interface for Perl5 template engines.
 =head1 DESCRIPTION
 
 Tiffany is a generic interface for Perl5 template engines.
+
+B<THIS MODULE IS IN ITS BETA QUALITY. THE API IS STOLEN FROM TILT BUT MAY CHANGE IN THE FUTURE>.
 
 =head1 FACTORY METHOD
 
@@ -102,6 +104,18 @@ This method MUST return plain string. Do not return a blessed reference.
 =head1 HOW TO USE IT IN MY WEB APPLICATION FRAMEWORK?
 
 Example code is here: eg/sinatraish/ in distribution tar ball or L<http://github.com/tokuhirom/p5-tiffany/tree/master/eg/sinatraish/>.
+
+=head1 FAQ
+
+=over 4
+
+=item Is Tiffany supports JSON?
+
+Tiffany should not support JSON. Tiffany protocol can support JSON serialize.
+But real web application needs more things like Content-Type.
+It is not supported area for Tiffany.
+
+=back
 
 =head1 AUTHOR
 

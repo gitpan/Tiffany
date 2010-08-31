@@ -20,6 +20,7 @@ inc/Test/Requires.pm
 inc/YAML.pm
 lib/Tiffany.pm
 lib/Tiffany/HTML/Template.pm
+lib/Tiffany/HTML/Template/Pro.pm
 lib/Tiffany/Template/Declare.pm
 lib/Tiffany/Template/Semantic.pm
 lib/Tiffany/Text/ClearSilver.pm
@@ -44,6 +45,7 @@ t/020_templates/08_xslate.t
 t/020_templates/09_template_declare.t
 t/020_templates/10_tmte.t
 t/020_templates/11_clearsilver.t
+t/020_templates/12_htp.t
 t/tmpl/foo.cs
 t/tmpl/foo.haml
 t/tmpl/foo.ht
