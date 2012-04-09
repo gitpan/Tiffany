@@ -1,0 +1,98 @@
+{
+   "abstract" : "Generic interface for Perl5 template engines.",
+   "author" : [
+      "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Tiffany",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.00800"
+         }
+      }
+   },
+   "provides" : {
+      "Tiffany" : {
+         "file" : "lib/Tiffany.pm",
+         "version" : "0.05"
+      },
+      "Tiffany::HTML::Template" : {
+         "file" : "lib/Tiffany/HTML/Template.pm",
+         "version" : 0
+      },
+      "Tiffany::HTML::Template::Pro" : {
+         "file" : "lib/Tiffany/HTML/Template/Pro.pm",
+         "version" : 0
+      },
+      "Tiffany::TT" : {
+         "file" : "lib/Tiffany/TT.pm",
+         "version" : 0
+      },
+      "Tiffany::Template::Declare" : {
+         "file" : "lib/Tiffany/Template/Declare.pm",
+         "version" : 0
+      },
+      "Tiffany::Template::Semantic" : {
+         "file" : "lib/Tiffany/Template/Semantic.pm",
+         "version" : 0
+      },
+      "Tiffany::Text::ClearSilver" : {
+         "file" : "lib/Tiffany/Text/ClearSilver.pm",
+         "version" : 0
+      },
+      "Tiffany::Text::MicroMason" : {
+         "file" : "lib/Tiffany/Text/MicroMason.pm",
+         "version" : 0
+      },
+      "Tiffany::Text::MicroTemplate::Extended" : {
+         "file" : "lib/Tiffany/Text/MicroTemplate/Extended.pm",
+         "version" : 0
+      },
+      "Tiffany::Text::MicroTemplate::File" : {
+         "file" : "lib/Tiffany/Text/MicroTemplate/File.pm",
+         "version" : 0
+      },
+      "Tiffany::Text::Xslate" : {
+         "file" : "lib/Tiffany/Text/Xslate.pm",
+         "version" : 0
+      },
+      "Tiffany::Util" : {
+         "file" : "lib/Tiffany/Util.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.05"
+}

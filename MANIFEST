@@ -1,23 +1,9 @@
 .gitignore
+Build.PL
 Changes
 eg/sinatraish/lib/Sinatraish.pm
 eg/sinatraish/sample.psgi
 eg/sinatraish/tmpl/index.tt
-inc/Module/Install.pm
-inc/Module/Install/AuthorTests.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/ReadmeMarkdownFromPod.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
-inc/Pod/Markdown.pm
-inc/Test/More.pm
-inc/Test/Requires.pm
-inc/YAML.pm
 lib/Tiffany.pm
 lib/Tiffany/HTML/Template.pm
 lib/Tiffany/HTML/Template/Pro.pm
@@ -30,10 +16,11 @@ lib/Tiffany/Text/MicroTemplate/File.pm
 lib/Tiffany/Text/Xslate.pm
 lib/Tiffany/TT.pm
 lib/Tiffany/Util.pm
-Makefile.PL
+LICENSE
 MANIFEST			This list of files
+META.json
 META.yml
-README.mkdn
+README
 t/00_compile.t
 t/010_core/01_load.t
 t/020_templates/01_tt.t
@@ -59,5 +46,7 @@ t/tmpl/foo.tx
 xt/01_podspell.t
 xt/02_perlcritic.t
 xt/03_pod.t
+xt/04_minimum_version.t
 xt/04_synopsis.t
-xt/perlcriticrc
+xt/05_cpan_meta.t
+xt/06_meta_author.t

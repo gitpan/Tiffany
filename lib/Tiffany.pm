@@ -2,7 +2,7 @@ package Tiffany;
 use strict;
 use warnings;
 use 5.00800;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub load {
     my ($class, $klass, $args) = @_;
@@ -119,7 +119,7 @@ It is not supported area for Tiffany.
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF GMAIL COME<gt>
+Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>
 
 =head1 SEE ALSO
 
