@@ -41,7 +41,7 @@
    "provides" : {
       "Tiffany" : {
          "file" : "lib/Tiffany.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       },
       "Tiffany::HTML::Template" : {
          "file" : "lib/Tiffany/HTML/Template.pm",
@@ -94,5 +94,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

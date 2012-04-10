@@ -22,7 +22,7 @@ no_index:
 provides:
   Tiffany:
     file: lib/Tiffany.pm
-    version: 0.05
+    version: 0.06
   Tiffany::HTML::Template:
     file: lib/Tiffany/HTML/Template.pm
     version: 0
@@ -60,4 +60,4 @@ requires:
   perl: 5.00800
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.05
+version: 0.06
