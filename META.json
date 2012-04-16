@@ -24,7 +24,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::Requires" : "0.98"
          }
       },
       "configure" : {
@@ -41,7 +42,7 @@
    "provides" : {
       "Tiffany" : {
          "file" : "lib/Tiffany.pm",
-         "version" : "0.06"
+         "version" : "0.07"
       },
       "Tiffany::HTML::Template" : {
          "file" : "lib/Tiffany/HTML/Template.pm",
@@ -94,5 +95,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.06"
+   "version" : "0.07"
 }
