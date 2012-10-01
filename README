@@ -11,9 +11,6 @@ SYNOPSIS
 DESCRIPTION
     Tiffany is a generic interface for Perl5 template engines.
 
-    THIS MODULE IS IN ITS BETA QUALITY. THE API IS STOLEN FROM TILT BUT MAY
-    CHANGE IN THE FUTURE.
-
 FACTORY METHOD
     Tiffany.pm acts as a factory for Tiffany::* classes, which in turn are
     the actual adaptor classes for each template engine.

@@ -4,7 +4,7 @@
       "Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -42,7 +42,7 @@
    "provides" : {
       "Tiffany" : {
          "file" : "lib/Tiffany.pm",
-         "version" : "0.08"
+         "version" : "1.00"
       },
       "Tiffany::HTML::Template" : {
          "file" : "lib/Tiffany/HTML/Template.pm",
@@ -95,5 +95,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.08"
+   "version" : "1.00"
 }
