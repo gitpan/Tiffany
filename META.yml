@@ -1,14 +1,16 @@
 ---
 abstract: 'Generic interface for Perl5 template engines.'
 author:
-  - 'Tokuhiro Matsuno E<lt>tokuhirom AAJKLFJEF@ GMAIL COME<gt>'
+  - 'Tokuhiro Matsuno <tokuhirom AAJKLFJEF@ GMAIL COM>'
 build_requires:
   Test::More: 0.98
   Test::Requires: 0
 configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.6.3, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,49 +18,47 @@ meta-spec:
 name: Tiffany
 no_index:
   directory:
-    - eg
-    - inc
     - t
     - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
 provides:
   Tiffany:
     file: lib/Tiffany.pm
-    version: 1.00
+    version: 1.01
   Tiffany::HTML::Template:
     file: lib/Tiffany/HTML/Template.pm
-    version: 0
   Tiffany::HTML::Template::Pro:
     file: lib/Tiffany/HTML/Template/Pro.pm
-    version: 0
   Tiffany::TT:
     file: lib/Tiffany/TT.pm
-    version: 0
   Tiffany::Template::Declare:
     file: lib/Tiffany/Template/Declare.pm
-    version: 0
   Tiffany::Template::Semantic:
     file: lib/Tiffany/Template/Semantic.pm
-    version: 0
   Tiffany::Text::ClearSilver:
     file: lib/Tiffany/Text/ClearSilver.pm
-    version: 0
   Tiffany::Text::MicroMason:
     file: lib/Tiffany/Text/MicroMason.pm
-    version: 0
   Tiffany::Text::MicroTemplate::Extended:
     file: lib/Tiffany/Text/MicroTemplate/Extended.pm
-    version: 0
   Tiffany::Text::MicroTemplate::File:
     file: lib/Tiffany/Text/MicroTemplate/File.pm
-    version: 0
   Tiffany::Text::Xslate:
     file: lib/Tiffany/Text/Xslate.pm
-    version: 0
   Tiffany::Util:
     file: lib/Tiffany/Util.pm
-    version: 0
 requires:
-  perl: 5.00800
+  perl: 5.008001
 resources:
-  license: http://dev.perl.org/licenses/
-version: 1.00
+  bugtracker: https://github.com/tokuhirom/Tiffany/issues
+  homepage: https://github.com/tokuhirom/Tiffany
+  repository: git://github.com/tokuhirom/Tiffany.git
+version: 1.01
+x_contributors:
+  - 'lestrrat <lestrrat+github@gmail.com>'
+  - 'gfx <gfuji@cpan.org>'
+  - 'tokuhirom <tokuhirom@gmail.com>'
